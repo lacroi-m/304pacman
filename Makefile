@@ -5,12 +5,12 @@
 ## Login   <tom.jeammet@epitech.eu>
 ## 
 ## Started on  Thu Jul 20 10:57:33 2017 Tom Jeammet
-## Last update Mon Oct 23 17:44:18 2017 ze
+## Last update Mon Nov  6 14:25:59 2017 ze
 ##
 
 CPP	= g++ -I./inc -Wall -Wextra -Werror
 
-NAME	= 303make
+NAME	= 304pacman
 
 RM	= rm -f
 
