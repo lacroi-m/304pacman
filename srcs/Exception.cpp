@@ -1,11 +1,11 @@
 //
-// Exception.cpp for  in /home/kopiz/Workplace/MATHS/303make/srcs
+// Exception.cpp for  in /home/ze/304pacman
 // 
-// Made by Tom Jeammet
-// Login   <tom.jeammet@epitech.eu>
+// Made by ze
+// Login   <maxime.lacroix@epitech.eu>
 // 
-// Started on  Fri Oct 27 14:31:02 2017 Tom Jeammet
-// Last update Fri Oct 27 14:31:06 2017 Tom Jeammet
+// Started on  Mon Nov  6 13:22:46 2017 ze
+// Last update Mon Nov  6 13:22:47 2017 ze
 //
 
 #include "Exception.hpp"

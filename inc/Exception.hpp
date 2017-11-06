@@ -1,11 +1,11 @@
 //
-// Exception.hpp for $ in /home/kopiz/Workplace/MATHS/303make/inc
+// Exception.hpp for  in /home/ze/304pacman
 // 
-// Made by Tom Jeammet
-// Login   <tom.jeammet@epitech.eu>
+// Made by ze
+// Login   <maxime.lacroix@epitech.eu>
 // 
-// Started on  Fri Oct 27 14:27:11 2017 Tom Jeammet
-// Last update Fri Oct 27 14:27:15 2017 Tom Jeammet
+// Started on  Mon Nov  6 13:22:27 2017 ze
+// Last update Mon Nov  6 13:22:28 2017 ze
 //
 
 #ifndef __EXCEPTION_HPP__

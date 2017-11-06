@@ -1,13 +1,12 @@
 //
-// Main.hpp for  in /home/ze/303make/inc
+// Main.hpp for  in /home/ze/304pacman
 // 
 // Made by ze
 // Login   <maxime.lacroix@epitech.eu>
 // 
-// Started on  Mon Oct 23 16:23:08 2017 ze
-// Last update Sun Oct 29 15:32:16 2017 Tom Jeammet
+// Started on  Mon Nov  6 13:22:36 2017 ze
+// Last update Mon Nov  6 13:23:24 2017 ze
 //
-
 
 #ifndef  __MAIN_HPP__
 # define  __MAIN_HPP__
@@ -18,10 +17,5 @@
 # include <fstream>
 
 # include "Exception.hpp"
-# include "Print.hpp"
-# include "Parser.hpp"
-# include "Matrix.hpp"
-# include "Relations.hpp"
-# include "Compile.hpp"
 
 #endif /* ! __MAIN_HPP__ */
