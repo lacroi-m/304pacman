@@ -5,27 +5,25 @@
 // Login   <maxime.lacroix@epitech.eu>
 // 
 // Started on  Mon Nov  6 14:30:38 2017 ze
-// Last update Mon Nov  6 14:32:33 2017 ze
+// Last update Tue Nov  7 15:35:37 2017 DESKTOP-FQFT07H
 //
-
 
 #include "Main.hpp"
 
-
 bool is_map(char c)
 {
+  if (c >= 7 || c <= 13)
+    return (true);
   if (c == '0' || c == '1' || c == 'F' || c == 'P')
     return (true);
   return (false);
 }
 
-void	check_line(std::string &tmp)
+void	check_line(std::string tmp)
 {
   int	i = -1;
-  const char	*line;
-  
-  line = tmp.c_str();
-  while (line[++i] != 0)
+  const char	*line = tmp.c_str();
+  while (line[++i])
     if (is_map(line[i]) == false)
       throw(Err("Error in map !\nUnexpected format line:\n'" + (std::string)line + "'"));
 }
