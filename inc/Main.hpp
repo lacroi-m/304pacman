@@ -5,7 +5,7 @@
 // Login   <maxime.lacroix@epitech.eu>
 // 
 // Started on  Mon Nov  6 13:22:36 2017 ze
-// Last update Tue Nov  7 15:51:59 2017 DESKTOP-FQFT07H
+// Last update Thu Nov  9 16:29:07 2017 Tom Jeammet
 //
 
 #ifndef  __MAIN_HPP__
@@ -18,8 +18,10 @@
 # include <vector>
 
 # include "Exception.hpp"
+# include "Cell.hpp"
+# include "Print.hpp"
 
-std::vector<std::string> checks(int ac, char **av);
-void			 modMapWallSpace(std::vector<std::string> &map,
-					 const char Wall, const char Space);
+std::vector<std::string>		checks(int ac, char **av);
+void					modMapWallSpace(std::vector<std::string> &, const char, const char);
+
 #endif /* ! __MAIN_HPP__ */
