@@ -5,11 +5,13 @@
 // Login   <tom.jeammet@epitech.eu>
 // 
 // Started on  Thu Nov  9 15:46:45 2017 Tom Jeammet
-// Last update Thu Nov  9 15:52:39 2017 Tom Jeammet
+// Last update Sat Nov 11 18:18:45 2017 Tom Jeammet
 //
 
 #ifndef __POSITION_HPP__
 # define __POSITION_HPP__
+
+# include <iostream>
 
 class					Position
 {
@@ -23,7 +25,12 @@ public:
   //Dtor
   ~Position();
   //Member
-  
+  bool					isGoodPos();
+  void					printPos();
+  void					setUp(Position);
+  void					setRight(Position);
+  void					setDown(Position);
+  void					setLeft(Position);
   //Getter
   int					getX();
   int					getY();
